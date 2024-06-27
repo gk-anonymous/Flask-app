@@ -29,18 +29,28 @@ Before installing Flask, it is a good practice to create a virtual environment. 
 python -m venv env
 
 # Activate the virtual environment
+
+
 # On Windows:
 env\Scripts\activate
+
+
 # On macOS/Linux:
 source env/bin/activate
 2. Install Flask
+
+
 Once the virtual environment is activated, install Flask using pip.
 
 pip install Flask
+
+
 Running the Application
 To run the application, use the following command:
 
 python app.py
+
+
 The application will start and be accessible at http://127.0.0.1:5000/.
 
 3. Using Flask CLI
@@ -55,12 +65,18 @@ set FLASK_ENV=development
 
 # On macOS/Linux:
 export FLASK_APP=app.py
+
+
 export FLASK_ENV=development
+
+
 Run the app using Flask CLI:
 
 
 flask run
 Application Routes
+
+
 The application has the following routes:
 
 / - Home page
